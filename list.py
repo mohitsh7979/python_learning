@@ -50,29 +50,67 @@ items=[1,2,3,4,5]
 # print(a)
 
 
-st=set([1,2,3,4,5])
-bt=set([3,4,5,6])
-# st.union(bt)
-# print(st)
-x=st.intersection(bt)
-print(x)
+# st=set([1,2,3,4,5])
+# bt=set([3,4,5,6])
+# # st.union(bt)
+# # print(st)
+# x=st.intersection(bt)
+# print(x)
 
 
-map_={
+# map_={
 
-    'first_name':'mohit',
-    'last_name':'sharma',
-    'company':'regex'
+#     'first_name':'mohit',
+#     'last_name':'sharma',
+#     'company':'regex'
+# }
+# #print(map_['first_name'])
+# print(map_.get('first_name'))
+# print(map_.get('last_name'))
+# print(map_.get('company'))
+# print(map_.keys())
+# map_.update({'clg':'jecrc'})
+# print(map_)
+# print(map_.copy())
+
+
+# item=[1,2,3]
+# print(item[1])
+# item[2]="mohit"
+ 
+# mohit=[1,2,3,4,5,6,7,8,9]
+
+# print(mohit[0:9:2])
+
+# ls=tuple(mohit)
+# print(ls)
+
+# sett=set(mohit)
+# print(sett)
+
+# self={3,4,5,6,10,11}
+
+# x=sett.intersection(self);
+# print(x)
+# y=sett.union(self)
+# print(y)2
+
+sorting=[3,6,54,12,8,9,52,1,36,5,9,6]
+#sorting.sort()
+# print(sorting)
+# sorting.pop(2)
+# print(sorting)
+# sorting.insert(2,"mohit")
+# print(sorting)
+
+dc={
+     "a":"mohit",
+     "b":"rohit",
+     "c":"aru"
+
 }
-#print(map_['first_name'])
-print(map_.get('first_name'))
-print(map_.get('last_name'))
-print(map_.get('company'))
-print(map_.keys())
-map_.update({'clg':'jecrc'})
-print(map_)
-print(map_.copy())
-
+print(dc["b"])
+print(dc.keys())
 
 
 
