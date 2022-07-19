@@ -41,8 +41,8 @@
 
 # print(lst)
 
-from math import dist
-from optparse import Values
+# from math import dist
+# from optparse import Values
 
 
 # n=int(input("Enter no"))
@@ -61,7 +61,7 @@ from optparse import Values
 #     list1[data_type] 
 #     list2[value]
     
-no_of_elm=int(input())
+no_of_elm=int(input("Enter no"))
 map_={
     'str':[],
     'int':[],
@@ -77,9 +77,13 @@ for i in range(no_of_elm):
         map_['int'].append(int(value))
     elif dt=='float':
         map_['float'].append(float(value))
+    
     else:
-        print("please intailise a empty list for {dt}".format(dt))
-
+        for j in range (j<1):
+            map_.update({dt:[]})
+            j=j+1
+            map_[dt].append(value)
+           
 print(map_)
 
 

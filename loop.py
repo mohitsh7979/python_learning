@@ -50,14 +50,14 @@
 
 #     print("\r")
 
-# for i in range(0,5):
-#    for k in range(0,5):
-#     print(end=" ")
-#     k=k-2
-#     for j in range(0,i+1):
-#         print(i)
+for i in range(0,5):
+    for k in range(0,5):
+     print(end=" ")
+     k=k-2
+     for j in range(0,i+1):
+        print(i)
     
-#     print("\r")
+     print("\r")
     
 
     
