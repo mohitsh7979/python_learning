@@ -56,17 +56,39 @@
 
 
 
-n=int(input())
-print(chr(n))
-m=int(input())
-print(chr(m))
-g=int(input())
-print(chr(g))
-a=int(input())
-print(chr(a))
-b=int(input())
-print(chr(b))
-v=int(input())
-print(chr(v))
+# n=int(input())
+# print(chr(n))
+# m=int(input())
+# print(chr(m))
+# g=int(input())
+# print(chr(g))
+# a=int(input())
+# print(chr(a))
+# b=int(input())
+# print(chr(b))
+# v=int(input())
+# print(chr(v))
 
-print(chr(n)+chr(m)+chr(g)+chr(a)+chr(b)+chr(v))
+# print(chr(n)+chr(m)+chr(g)+chr(a)+chr(b)+chr(v))
+
+
+# n  = input()
+# n = int(n)
+# s = ''
+
+# for i in range(n):
+#     ascii_number = int(input())
+#     char_at_ascii = chr(ascii_number)
+#     s += char_at_ascii
+#     print(s)
+    
+
+ascii_numbers = input()
+ascii_numbers_list = ascii_numbers .split()
+
+print(ascii_numbers_list)
+s = ''
+
+for i in ascii_numbers_list:
+    s += chr(int(i))
+    print(s)
