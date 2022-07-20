@@ -49,6 +49,8 @@
     
 #     fact=fact * i
 
+
+
 #     print(fact)
 
 # palindrone or not 
@@ -83,12 +85,53 @@
 #     print(s)
     
 
-ascii_numbers = input()
-ascii_numbers_list = ascii_numbers .split()
+# ascii_numbers = input()
+# ascii_numbers_list = ascii_numbers .split()
 
-print(ascii_numbers_list)
-s = ''
+# print(ascii_numbers_list)
+# s = ''
 
-for i in ascii_numbers_list:
-    s += chr(int(i))
-    print(s)
+# for i in ascii_numbers_list:
+#     s += chr(int(i))
+#     print(s)
+
+# n=int(input("Enter your factorial no"))
+# i=n
+# fact=1
+# for i in range(1,n):
+#     fact=fact*i
+#     print(fact)
+    
+
+
+
+
+# n=int(input("Enter your factorial no"))
+# fact=1
+# for i in range(n,1,-1):
+#     fact=fact*i
+# print(fact)
+
+# a="mohit is web developer"    
+# c=a.split()
+# print(c[2])
+
+# n=(input())
+# a=list(n)
+# for i in range(1,n):
+#     if a[0]==a[n] and a[i]==a[n-i]:
+#         print("palidrome number")
+#     else:
+#         print("Not Palindrome")
+
+n=(input("Enter no"))
+c=list(n)
+print(c)
+print(len)
+
+for i in range(1,len(c)):
+    if c[0]==c[int(n)] and c[i]==c[len(c)-i]:
+        print("palidrome number")
+    else:
+        print("Not Palindrome")
+
