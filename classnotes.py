@@ -124,14 +124,27 @@
 #     else:
 #         print("Not Palindrome")
 
-n=(input("Enter no"))
-c=list(n)
-print(c)
-print(len)
+# n=(input("Enter no"))
+# c=list(n)
+# print(c)
+# l=len(c)//2
+# flag=0
+# for i in range(0,l):
+#     if  c[i]!=c[len(c)-i-1]:
+#         falg=0
+#     else:
+#         flag=1
 
-for i in range(1,len(c)):
-    if c[0]==c[int(n)] and c[i]==c[len(c)-i]:
-        print("palidrome number")
-    else:
-        print("Not Palindrome")
+# if(flag==1):
+#     print("palindrome")
+# else:
+#     print("not palindrome")    
+
+
+s={1,2,3,4}
+for i in s:
+    print(s)
+# st="keshav"
+# for i in st:
+#     print(i)
 
