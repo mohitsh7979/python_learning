@@ -63,6 +63,7 @@
 
 #      if ord(n[i])+1==ord(n[i+1]):
 #       table+=1
+3
      
 #       return table
 # print(my_func(n))
@@ -73,6 +74,7 @@
 n=[1,2,3,4,5,6]
 def my_even(n):
    for i in n:
+      
       if(i%2==0):
          print(i)
       else:
